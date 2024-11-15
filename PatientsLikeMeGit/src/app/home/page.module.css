@@ -1,0 +1,162 @@
+/* BlogDashboard.module.css */
+
+
+
+.container {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 32px 16px;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .header h1 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+    margin-bottom: 0;
+  }
+  
+  .searchBar {
+    display: flex;
+    gap: 8px;
+    max-width: 600px;
+    margin: 0 auto 24px;
+  }
+  
+  .searchBar input {
+    flex: 1;
+    padding: 10px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 24px;
+    outline: none;
+    background-color: #fff;
+    color: var(--text-secondary);
+  }
+  
+  .searchBar select {
+    padding: 10px 16px;
+    border: 1px solid #d1d5db;
+    border-radius: 24px;
+    background-color: #fff;
+    cursor: pointer;
+    color: var(--text-secondary);
+  }
+  
+  .searchBar button {
+    padding: 10px 18px;
+    border-radius: 24px;
+    border: none;
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .searchBar button:hover {
+    background-color: var(--button-hover);
+  }
+  
+  .blogList {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .blogItem {
+    padding: 20px;
+    border: 1px solid #d3dce6;
+    border-radius: 8px;
+    background-color: #fff;
+    transition: box-shadow 0.2s ease-in-out;
+    color: var(--text-primary);
+  }
+  
+  .blogItem:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .blogItem h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-bottom: 8px;
+    transition: color 0.2s ease;
+  }
+  
+  .blogItem h2:hover {
+    color: var(--accent-color);
+  }
+  
+  .blogItem p {
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .blogItem span {
+    font-size: 0.9rem;
+    color: #6c757d;
+    display: block;
+    margin-bottom: 12px;
+  }
+  
+  .blogItem button {
+    padding: 8px 16px;
+    background-color: var(--accent-color);
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .blogItem button:hover {
+    background-color: #d95b45;
+  }
+  .addBlogButton {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .addBlogButton:hover {
+    background-color: #45a049; /* Darker green on hover */
+    margin-bottom: 4px;
+    padding: 12px;
+  }
+  
+  .formContainer button {
+    background-color: #007BFF; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 15px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 14px; /* Font size */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .formContainer button:hover {
+    background-color: #0056b3;
+    padding: 12px;
+    margin: 4px; /* Darker blue on hover */
+  }
+  
+  @media (min-width: 768px) {
+    .searchBar {
+        gap: 16px;
+    }
+  }
+  

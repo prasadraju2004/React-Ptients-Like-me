@@ -1,0 +1,36 @@
+.page {
+  height: 100vh; /* Full height for the background */
+  background-color: #e9ecef; /* Page background color */
+}
+
+.container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  height: 100%; /* Full height of the parent */
+  position: relative; /* For absolute positioning of children */
+}
+
+.buttonContainer {
+  margin-top: 20px; /* Space between the logo and button */
+}
+
+.enterButton {
+  background-color: rgba(0, 123, 255, 0.8); /* Button color with transparency */
+  color: white; /* Button text color */
+  padding: 10px 20px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 16px; /* Font size */
+  transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+.enterButton:hover {
+  background-color: rgba(0, 86, 179, 0.8); /* Darker shade on hover */
+}
+
+.logo {
+  margin-bottom: 20px; /* Space below the logo */
+}

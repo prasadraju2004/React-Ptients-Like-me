@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --primary-color: #2a9d8f; /* Calm Teal */
+  --secondary-color: #264653; /* Deep Green-Blue */
+  --accent-color: #e76f51; /* Soft Coral */
+  --background-color: #f4f4f9; /* Light Grey */
+  --text-primary: #2c3e50; /* Dark Slate */
+  --text-secondary: #4a5568; /* Medium Slate */
+  --button-hover: #1d7a73; /* Slightly darker teal for hover */
+}
+body {
+  color: var(--foreground);
+  background: var(--background-color);
+  font-family: Arial, Helvetica, sans-serif;
+}

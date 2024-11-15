@@ -1,0 +1,101 @@
+/* page.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2a9d8f;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.date {
+    font-size: 0.9rem;
+    color: #6b7280;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.excerpt {
+    font-size: 1.1rem;
+    color: #4b5563;
+    margin-bottom: 16px;
+    text-align: justify;
+}
+
+.content {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4a5568;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.imageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.imageContainer {
+    position: relative; /* Establishes a positioning context for absolute positioning */
+  }
+  
+
+  
+  .textOverlay {
+    position: absolute; /* Positioning relative to the parent container */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Offset for centering */
+    color: white; /* Change to desired text color */
+    font-size: 24px; /* Adjust font size */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional: for better readability */
+    text-align: center; /* Center text alignment */
+  }
+  
+
+.tags {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tagList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tagItem {
+    font-size: 0.9rem;
+    color: #2563eb;
+    margin: 4px 8px;
+    background-color: #dbeafe;
+    padding: 4px 12px;
+    border-radius: 16px;
+    transition: background-color 0.2s;
+}
+
+.tagItem:hover {
+    background-color: #bfdbfe;
+}
